@@ -1,0 +1,45 @@
+body {
+    background-image: url(bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.bird-container {
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    width: 10px;
+    animation: birdAnimation 6s infinite;
+}
+
+
+
+.bird-container img{
+width: 120px;
+}
+
+@keyframes birdAnimation {
+0% {
+    top: 50%;
+
+left: 00%;}
+
+25%{
+top: 65%;
+}
+
+60% {
+    top: 65%;
+}
+
+80% {
+    top: 30%;
+    left: 65%;
+}
+100%{
+    top: 30%;
+    left:100%;
+}
+
+
+}
